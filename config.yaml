@@ -2,6 +2,7 @@ paths:
   data_dir: "../data/"
   model_dir: "../models/"
   log_dir: "../logs/"
+  reports: "../reports/"
 
 files:
   raw_data: "global_university_students_performance_habits_10000.csv"
