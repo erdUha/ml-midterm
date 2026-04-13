@@ -7,11 +7,16 @@ import shutil
 with open("config.yaml", "r") as f:
     cfg = yaml.safe_load(f)
 
+# Iterate through all entries in the 'paths' section
+if 'paths' in cfg:
+    for path_name, path_value in cfg['paths'].items():
+        os.makedirs(path_value, exist_ok=True)
+        print(f"Verified directory: {path_value} (for {path_name})")
+else:
+    print("Error: 'paths' section not found in config.yaml")
+
 # Get the data directory
 target_dir = cfg['paths']['data_dir']
-
-# Create a dir if not exists
-os.makedirs(target_dir, exist_ok=True)
 
 # Download latest version of the data set
 cache_path = kagglehub.dataset_download("asifxzaman/university-students-performance-and-study-habits2026")
