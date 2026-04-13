@@ -4,7 +4,7 @@
     Group: IT2407
 
 # Requirements
-Install VS Code and Jupyter, Python modules. Then create the venv environment and install the packages from `requirements.txt`:
+Install VS Code, Jupyter and Python modules. Then create the venv environment and install the packages from `requirements.txt`:
 ```Bash
 pip install -r requirements.txt
 ```
