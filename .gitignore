@@ -1,5 +1,7 @@
 data/global_university_students_performance_habits_10000.csv
 data/supervised_results.csv
-models/*
+models/encoding_maps.joblib
+models/imputer.joblib
+models/scaler.joblib
 logs/*
 .venv
