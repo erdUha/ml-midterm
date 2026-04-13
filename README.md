@@ -1,4 +1,4 @@
 # Midterm project
-Astana IT University
-Student name: Yerden Kenzhebayev
-Group: IT2407
+    Astana IT University\
+    Student name: Yerden Kenzhebayev\
+    Group: IT2407
