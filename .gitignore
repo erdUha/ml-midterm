@@ -1,4 +1,5 @@
-data/*
+data/global_university_students_performance_habits_10000.csv
+data/supervised_results.csv
 models/*
 logs/*
 .venv
